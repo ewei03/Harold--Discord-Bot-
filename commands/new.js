@@ -55,7 +55,7 @@ module.exports = {
         else if (hour < 0 || hour > 12 || isNaN(minute) || minute < 0 || minute > 59) { msg.channel.send('Error: Invalid time'); }
         else if (meridian !== "PM" && meridian !== "AM") { msg.channel.send('AM/PM not specified or uncapitalized. Try again.'); }
 
-        else { console.log(`[ASSIGNMENT ADDED] User: ${msg.author.username} | Name: "${assignment}" | Date: ${month}/${day.padStart(2, '0')}/${year} | Time: ${hour}:${minute.padStart(2, '0')} ${meridian} | ID: ${id}`); }
+        else { msg.channel.send(`Assignment "${assignment}" added for <@${msg.author.id}>, due on ${month}/${day.padStart(2, '0')}/${year} at ${hour}:${minute.padStart(2, '0')} ${meridian}. ID: ${id}`); }
 
         id++;
 

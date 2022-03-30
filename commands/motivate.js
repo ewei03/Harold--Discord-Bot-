@@ -17,8 +17,6 @@ module.exports = {
     name: 'motivate',
     description: "selects a random motivational quote for the user to keep them working!",
     run(msg) {
-        if (msg.content === "h!motivate") {
-            msg.channel.send(encourage(quotes));
-        }
+        msg.channel.send(encourage(quotes));
     }
 }

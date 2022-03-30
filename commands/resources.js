@@ -9,7 +9,7 @@ const pfp = 'https://cdn.discordapp.com/attachments/672508709754241044/958551636
             { name: "What is Procrastination? - verywellmind", value: "[A detailed description of procrastination and its causes.](https://www.verywellmind.com/the-psychology-of-procrastination-2795944)" },
             { name: "Understanding and Overcoming Procrastination - Princeton University", value: "[A Princeton article explaining effective ways to combat procrastination.](https://mcgraw.princeton.edu/understanding-and-overcoming-procrastination)"},
             { name: "When is Procrastination a Matter of Mental Health? - U.S. News, Health", value: "[If you feel you need professional help in regards to your work habits.](https://health.usnews.com/wellness/articles/is-your-chronic-procrastination-actually-a-matter-of-mental-health)"},
-            { name: "*Pomodoro* (Tomato) Timer]", value: "[A special timer app designed specifically for procrastinators.](https://pomofocus.io/)"},
+            { name: "*Pomodoro* (Tomato) Timer", value: "[A special timer app designed specifically for procrastinators.](https://pomofocus.io/)"},
             )
 
 module.exports = {

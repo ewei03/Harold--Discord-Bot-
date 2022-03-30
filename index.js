@@ -36,7 +36,7 @@ client.on('messageCreate', message => {
   const command = args.shift().toLowerCase();
 
   if (!client.commands.get(command)) return;
-  client.commands.get(command).run(message, args);
+  client.commands.get(command).run(message, args, command);
 })
 
 // Connecting to Mongoose

@@ -7,7 +7,6 @@ const { MessageEmbed } = require('discord.js');
         .addFields(
             { name: 'h!help', value: 'You\'re already here.' },
             { name: 'h!new \<name\>, \<date\>, \<time\>', value: 'Give me an assignment name (no spaces) and deadline, and I\'ll ping you when you\'re done. Multiple assignments are allowed!' },
-            { name: 'h!remove \<id\>', value: 'Removes an assignment from your list.' },
             { name: 'h!clear \<id\>', value: 'Clears all assignments from your list.' },
             { name: 'h!view', value: 'View all current assignments and deadlines.'},
             { name: 'h!motivate', value: 'A motivational quote for you! '},
